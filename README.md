@@ -26,7 +26,7 @@ CREATE USER gisuser WITH PASSWORD '<password>' LOGIN CREATEDB;
 psql -U gisuser -h localhost -d postgres
 ```
 
-DB作成
+DB作成：各DBの管理情報を入れるDB
 ```
 => CREATE DATABASE gisfederation;
 ```
