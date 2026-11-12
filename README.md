@@ -18,7 +18,7 @@ host    all             all             ::1/128                 scram-sha-256
 
 ユーザー作成
 ```
-CREATE USER dbuser WITH PASSWORD '<password>' LOGIN CREATEDB;
+CREATE USER gisuser WITH PASSWORD '<password>' LOGIN CREATEDB;
 ```
 
 確認
