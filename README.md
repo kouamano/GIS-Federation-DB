@@ -15,3 +15,14 @@ host    all             all             127.0.0.1/32            scram-sha-256
 #host    all             all             ::1/128                 ident
 host    all             all             ::1/128                 scram-sha-256
 ```
+
+ユーザー作成
+```
+CREATE USER dbuser WITH PASSWORD '<password>' LOGIN CREATEDB;
+```
+
+確認
+```
+psql -U gisuser -h localhost -d postgres
+```
+
