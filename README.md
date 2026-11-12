@@ -5,14 +5,17 @@
 - dbviewer : read-only user
 
 ## create
+```
 $ sudo su - postgres
 $ psql
 =# CREATE ROLE dbadmin WITH LOGIN CREATEDB CREATEROLE;
 =# \password dbadmin
 =# exit
+```
 
 ここで、データベースユーザーのパスワードログインを可能にする。
-ファイル: /var/lib/pgsql/data/pg_hba.conf
+
+ファイル: /var/lib/pgsql/data/pg_hba.conf を以下の様に書き換え
 ```
 # IPv4 local connections:
 #host    all             all             127.0.0.1/32            ident
