@@ -52,7 +52,7 @@ DB作成：各DBの管理情報を入れるDB
 => CREATE DATABASE "01a1d2e2-5476-74e6-982b-6158fd9d9006";
 ```
 
-DBのPostGis有効化
+DBのPostGis有効化 ← これはsuper userで
 ```
 01a1d2e2-5476-74e6-982b-6158fd9d9006=# CREATE EXTENSION IF NOT EXISTS postgis;
 ```
