@@ -31,7 +31,7 @@ DB作成：各DBの管理情報を入れるDB
 => CREATE DATABASE gisfederation;
 ```
 
-テスト用DB
+テスト用DB作成
 ```
 /opt/util-linux-2.41/bin/uuidgen --time-v7
 01a1d2e2-5476-74e6-982b-6158fd9d9006
@@ -39,7 +39,7 @@ DB作成：各DBの管理情報を入れるDB
 => CREATE DATABASE "01a1d2e2-5476-74e6-982b-6158fd9d9006";
 ```
 
-テーブル
+テーブル作成
 ```
 psql -U gisuser -h localhost -d 01a1d2e2-5476-74e6-982b-6158fd9d9006
 01a1d2e2-5476-74e6-982b-6158fd9d9006=>
