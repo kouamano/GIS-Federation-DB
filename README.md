@@ -9,7 +9,7 @@ postgresql18-private-libs.aarch64                    18.6-1.0.1.el10_2          
 postgresql18-server.aarch64                          18.6-1.0.1.el10_2                    @ol10_appstream  
 ```
 
-# user
+# User
 - postgres : super user
 - gisuser : developer
 - dbviewer : read-only user
