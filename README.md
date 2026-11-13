@@ -37,6 +37,8 @@ CREATE USER gisuser WITH PASSWORD '<password>' LOGIN CREATEDB;
 psql -U gisuser -h localhost -d postgres
 ```
 
+# DB
+## create
 DB作成：各DBの管理情報を入れるDB
 ```
 => CREATE DATABASE gisfederation;
@@ -55,6 +57,8 @@ DBのPostGis有効化
 01a1d2e2-5476-74e6-982b-6158fd9d9006=# CREATE EXTENSION IF NOT EXISTS postgis;
 ```
 
+# Table
+## create
 GISテーブル作成
 ```
 /opt/util-linux-2.41/bin/uuidgen --time-v7
