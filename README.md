@@ -41,6 +41,9 @@ DB作成：各DBの管理情報を入れるDB
 
 テーブル作成
 ```
+/opt/util-linux-2.41/bin/uuidgen --time-v7
+01a1d331-836d-7551-8f15-bda257c9273c #テーブル名
+
 psql -U gisuser -h localhost -d 01a1d2e2-5476-74e6-982b-6158fd9d9006
-01a1d2e2-5476-74e6-982b-6158fd9d9006=>
+01a1d2e2-5476-74e6-982b-6158fd9d9006=>　CREATE TABLE "01a1d331-836d-7551-8f15-bda257c9273c" (tuple_id UUID PRIMARY KEY, item_key JSONB, item_val JSONB, );
 ```
