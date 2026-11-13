@@ -38,3 +38,9 @@ DB作成：各DBの管理情報を入れるDB
 
 => CREATE DATABASE "01a1d2e2-5476-74e6-982b-6158fd9d9006";
 ```
+
+テーブル
+```
+psql -U gisuser -h localhost -d 01a1d2e2-5476-74e6-982b-6158fd9d9006
+01a1d2e2-5476-74e6-982b-6158fd9d9006=>
+```
