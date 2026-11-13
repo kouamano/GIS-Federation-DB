@@ -1,3 +1,14 @@
+# DB system
+```
+$ dnf list installed | grep postgresql
+postgresql18.aarch64                                 18.6-1.0.1.el10_2                    @ol10_appstream    
+postgresql18-contrib.aarch64                         18.6-1.0.1.el10_2                    @ol10_appstream    
+postgresql18-postgis.aarch64                         3.5.3-1.el10_2.1                     @ol10_appstream    
+postgresql18-postgis-client.aarch64                  3.5.3-1.el10_2.1                     @ol10_appstream    
+postgresql18-private-libs.aarch64                    18.6-1.0.1.el10_2                    @ol10_appstream    
+postgresql18-server.aarch64                          18.6-1.0.1.el10_2                    @ol10_appstream  
+```
+
 # user
 - postgres : super user
 - gisuser : developer
