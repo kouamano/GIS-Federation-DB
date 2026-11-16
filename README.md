@@ -31,6 +31,9 @@ host    all             all             ::1/128                 scram-sha-256
 ```
 CREATE USER gisuser WITH PASSWORD '<password>' LOGIN CREATEDB;
 ```
+```
+CREATE ROLE dbviewer WITH LOGIN PASSWORD <osjimの例のパスワード>;
+```
 
 確認
 ```
