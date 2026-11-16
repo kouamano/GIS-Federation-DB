@@ -45,7 +45,7 @@ psql -U dbviewer -h localhost -d postgres
 
 # DB
 ## create
-DB作成：各DBの管理情報を入れるDB
+DB作成：各DBの管理情報を入れるDB（全体でひとつだけ、DB名/テーブル名がUUIDになるので補助情報として）
 ```
 => CREATE DATABASE gisfederation;
 ```
