@@ -86,6 +86,16 @@ OK↓ ただし、バイナリ形式で表示される。
 ```
 01a1d2e2-5476-74e6-982b-6158fd9d9006=> select * from "01a1d331-836d-7551-8f15-bda257c9273c";
 ```
+
+座標変換して表示
+```
+01a1d2e2-5476-74e6-982b-6158fd9d9006=> select tuple_id,ST_AsText(gis) AS coordinates from "01a1d331-836d-7551-8f15-bda257c9273c" where ST_DWithin(gis,ST_GeomFromText('POINT(139 35)'),1);
+               tuple_id               |    coordinates
+--------------------------------------+-------------------
+ 019a0000-0000-7000-8000-000000000001 | POINT(139.7 35.6)
+(1 行)
+```
+
 2) JSONのアップデート
 ```
 01a1d2e2-5476-74e6-982b-6158fd9d9006=> UPDATE "01a1d331-836d-7551-8f15-bda257c9273c" SET item_key='{"testkey1":"testke1-1"}' WHERE tuple_id='019a0000-0000-7000-8000-000000000001';
