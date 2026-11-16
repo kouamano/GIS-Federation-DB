@@ -75,6 +75,8 @@ psql -U gisuser -h localhost -d 01a1d2e2-5476-74e6-982b-6158fd9d9006
 ```
 
 # Test
+1) GISのインサート
+
 ```
 01a1d2e2-5476-74e6-982b-6158fd9d9006=> INSERT INTO "01a1d331-836d-7551-8f15-bda257c9273c" (tuple_id,gis) VALUES ('019a0000-0000-7000-8000-000000000001',ST_GeomFromText('POINT(139.7 35.6)'));
 INSERT 0 1
@@ -83,4 +85,9 @@ INSERT 0 1
 OK↓ ただし、バイナリ形式で表示される。
 ```
 01a1d2e2-5476-74e6-982b-6158fd9d9006=> select * from "01a1d331-836d-7551-8f15-bda257c9273c";
+```
+2) JSONのアップデート
+```
+01a1d2e2-5476-74e6-982b-6158fd9d9006=> UPDATE "01a1d331-836d-7551-8f15-bda257c9273c" SET item_key='{"testkey1":"testke1-1"}' WHERE tuple_id='019a0000-0000-7000-8000-000000000001';
+UPDATE 1
 ```
