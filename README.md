@@ -91,3 +91,10 @@ OK↓ ただし、バイナリ形式で表示される。
 01a1d2e2-5476-74e6-982b-6158fd9d9006=> UPDATE "01a1d331-836d-7551-8f15-bda257c9273c" SET item_key='{"testkey1":"testke1-1"}' WHERE tuple_id='019a0000-0000-7000-8000-000000000001';
 UPDATE 1
 ```
+
+間違えてみる
+```
+01a1d2e2-5476-74e6-982b-6158fd9d9006=> UPDATE "01a1d331-836d-7551-8f15-bda257c9273c" SET item_val='{"testkey1","testke1-1"}' WHERE tuple_id='019a0000-0000-7000-8000-000000000001';
+ERROR:  json型に対する不正な入力構文
+```
+ちゃんとエラーになる。
