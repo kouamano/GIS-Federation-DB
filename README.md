@@ -39,6 +39,9 @@ CREATE ROLE dbviewer WITH LOGIN PASSWORD <osjimの例のパスワード>;
 ```
 psql -U gisuser -h localhost -d postgres
 ```
+```
+psql -U dbviewer -h localhost -d postgres
+```
 
 # DB
 ## create
