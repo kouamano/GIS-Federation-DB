@@ -123,3 +123,9 @@ $ psql -h localhost -U gisuser -d 01a1d2e2-5476-74e6-982b-6158fd9d9006  -c "\cop
 COPY 10
 ```
 実行後はログアウト状態になる。
+
+4) 検索
+
+```
+01a1d2e2-5476-74e6-982b-6158fd9d9006=> select * from "01a1d331-836d-7551-8f15-bda257c9273c" WHERE (item_val ->> 'ph')::numeric >= 7.0;
+```
