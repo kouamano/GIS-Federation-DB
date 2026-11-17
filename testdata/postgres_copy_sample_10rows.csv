@@ -1,0 +1,11 @@
+tuple_id,item_key,item_val,gis,gis_annotation
+9eee65a9-d422-4e78-9906-3a0daa766cc1,"{""name"":""地点A"",""category"":""観測地点""}","{""temperature"":18.5,""unit"":""°C"",""observed_at"":""2026-11-01T09:00:00+09:00""}",SRID=4326;POINT(130.5571 31.5966),"{""source"":""sample"",""note"":""鹿児島市内のサンプル地点""}"
+11882d2a-0e3e-4d9f-9437-59e7aa13f081,"{""name"":""地点B"",""category"":""河川""}","{""water_level"":1.24,""unit"":""m"",""observed_at"":""2026-11-02T10:30:00+09:00""}",SRID=4326;POINT(130.5582 31.6021),"{""source"":""sample"",""quality"":""A""}"
+fad9e346-a42e-4a0f-b1f8-1c7f723bad3b,"{""name"":""地点C"",""category"":""地質""}","{""rock_type"":""安山岩"",""age_ma"":12.4}",SRID=4326;POINT(130.5410 31.5902),"{""source"":""sample"",""method"":""field survey""}"
+60a6b782-f950-4d90-a650-f437e5c425d3,"{""name"":""地点D"",""category"":""植生""}","{""species"":""クスノキ"",""height_m"":8.2}",SRID=4326;POINT(130.5650 31.5850),"{""source"":""sample"",""confidence"":0.95}"
+953eb775-c6fb-46e1-b227-3172c447056c,"{""name"":""地点E"",""category"":""気象""}","{""rainfall_mm"":3.6,""period"":""1h""}",SRID=4326;POINT(130.5701 31.6105),"{""source"":""sample"",""instrument"":""rain_gauge""}"
+886f616a-980e-40aa-8bd7-853ca23e2dd8,"{""name"":""地点F"",""category"":""土壌""}","{""ph"":6.3,""depth_cm"":20}",SRID=4326;POINT(130.5488 31.6152),"{""source"":""sample"",""replicate"":1}"
+014519fe-4cae-4d9d-a23a-758c3fe2cf9b,"{""name"":""地点G"",""category"":""水質""}","{""ph"":7.2,""dissolved_oxygen_mg_l"":8.1}",SRID=4326;POINT(130.5790 31.5980),"{""source"":""sample"",""replicate"":2}"
+c9a6297e-61f3-453f-8485-97348d55e5f0,"{""name"":""地点H"",""category"":""地形""}","{""elevation_m"":42.7,""slope_deg"":6.5}",SRID=4326;POINT(130.5325 31.6040),"{""source"":""sample"",""dem"":""sample_dem""}"
+544535fa-241e-41e6-b6da-8d65317c4632,"{""name"":""地点I"",""category"":""生物""}","{""taxon"":""鳥類"",""count"":3}",SRID=4326;POINT(130.5902 31.5888),"{""source"":""sample"",""observer"":""survey team""}"
+b0510892-f8bb-4170-8cfe-b0ed8a6b2033,"{""name"":""地点J"",""category"":""一般""}","{""value"":123,""active"":true,""tags"":[""sample"",""test""]}",SRID=4326;POINT(130.5512 31.5789),"{""source"":""sample"",""remarks"":null}"
