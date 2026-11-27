@@ -38,3 +38,9 @@
 ```
 psql -U dbviewer -h 127.0.0.1 -d postgres -p 54321
 ```
+
+### 設定 6
+特に設定はない、mac 2からpostgresへのアクセスを確認する
+```
+psql -U dbviewer -h mac1 -d postgres -p 54321
+```
