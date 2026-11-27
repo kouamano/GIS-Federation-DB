@@ -4,7 +4,7 @@
 ```
 | postgres      |-設定 1
 | linux         |-設定 2
-| VM            |-設定 3
+| VirtualBox    |-設定 3
 | mac 1         |-設定 4                 | AIサーバ     |-設定 5
     ↑                                        ↑
     ↓                                        ↓
