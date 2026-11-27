@@ -34,13 +34,16 @@
 - ポートフォワードする: 例）5432 -> 54321
 
 ### 設定 4
-特に設定はない、mac 1からpostgresへのアクセスを確認する
-```
-psql -U dbviewer -h 127.0.0.1 -d postgres -p 54321
-```
+- 特に設定はない、mac 1からpostgresへのアクセスを確認する
+  ```
+  psql -U dbviewer -h 127.0.0.1 -d postgres -p 54321
+  ```
 
 ### 設定 6
-特に設定はない、mac 2からpostgresへのアクセスを確認する
-```
-psql -U dbviewer -h mac1 -d postgres -p 54321
-```
+- mac 2からpostgresへのアクセスを確認する
+  ```
+  psql -U dbviewer -h mac1 -d postgres -p 54321
+  ```
+
+- ローカルネットからmac 1へのアクセスを仲介する
+  （準備中）
