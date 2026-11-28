@@ -38,6 +38,7 @@
   ```
   psql -U dbviewer -h 127.0.0.1 -d postgres -p 54321
   ```
+
 ### 設定 5
 #### llama.cpp
 外部からのアクセスを許可する
@@ -46,6 +47,9 @@
   ufw allow 9931:9939/tcp
   ```
 - 接続元を0.0.0.0で起動（デフォルトは127.0.0.1）
+  ```
+  llama-server -hf unsloth/Qwen3.6-35B-A3B-GGUF:Q4_K_M --host 0.0.0.0
+  ```
 
 ### 設定 6
 - mac 2からpostgresへのアクセスを確認する
